@@ -1,0 +1,24 @@
+{
+  "name": "gravatar-service",
+  "version": "1.0.0",
+  "description": "Node.js microservice for providing globally recognized avatar image via Gravatar ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasha7/gravatar-service.git"
+  },
+  "keywords": [
+    "node.js",
+    "avatar",
+    "gravatar"
+  ],
+  "author": "Sasa Macakanja <sasa.macakanja@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasha7/gravatar-service/issues"
+  },
+  "homepage": "https://github.com/sasha7/gravatar-service#readme"
+}
