@@ -4,6 +4,8 @@
   "description": "Node.js microservice for providing globally recognized avatar image via Gravatar ",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "watch": "DEBUG=gravatar-service:* nodemon index.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/sasha7/gravatar-service/issues"
   },
-  "homepage": "https://github.com/sasha7/gravatar-service#readme"
+  "homepage": "https://github.com/sasha7/gravatar-service#readme",
+  "dependencies": {
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
